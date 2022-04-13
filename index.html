@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -32,12 +33,12 @@
                 <img src="images/menu-white.png " class="menu-icon" onclick="menutoggle()">
             </div>
             <div class="row ">
-                <div class="col-2 ">
+                <div class="col-2" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000">
                     <h1>Give Your Workspace<br>A New Style!</h1>
                     <p>Succes isn't about greatness. It's about consistency. Consistent<br>hardwork gains success. Greatness will come.</p>
                     <a href=" " class="btn">Explore Now &#8594;</a>
                 </div>
-                <div class="col-2 ">
+                <div class="col-2" data-aos="fade-down" data-aos-delay="200" data-aos-duration="3000">
                     <img src="images/diskon.png ">
                 </div>
             </div>
@@ -49,13 +50,13 @@
     <div class="categories ">
         <div class="small-container ">
             <div class="row ">
-                <div class="col-3 ">
+                <div class="col-3" data-aos="flip-left" data-aos-delay="100" data-aos-offset="300">
                     <img src="images/HX-2.jpg " alt=" ">
                 </div>
-                <div class="col-3 ">
+                <div class="col-3" data-aos="flip-left" data-aos-delay="200" data-aos-offset="300">
                     <img src="images/HX-1.jpg " alt=" ">
                 </div>
-                <div class="col-3 ">
+                <div class="col-3" data-aos="flip-left" data-aos-delay="300" data-aos-offset="300">
                     <img src="images/HX-2.jpg " alt=" ">
                 </div>
             </div>
@@ -68,7 +69,7 @@
         <h2 class="title ">Features Products</h2>
         <div class="row ">
             <div class="col-4 ">
-                <img src="images/product-nano.jpg">
+                <img src="images/product-nano.jpg ">
                 <h4> Nano Leaf RGB</h4>
                 <div class="rating ">
                     <i class="fa fa-star "></i>
@@ -100,22 +101,78 @@
                     <p>Rp300.000</p>
                 </div>
             </div>
+            <div class="col-4 ">
+                <img src="images/product-hx.jpg ">
+                <h4> Hexagon RGB</h4>
+                <div class="rating ">
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star-half-o "></i>
+                    <p>Rp300.000</p>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <img src="images/product-hx.jpg ">
+                <h4> Hexagon RGB</h4>
+                <div class="rating ">
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star-half-o "></i>
+                    <p>Rp300.000</p>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <img src="images/product-hx.jpg ">
+                <h4> Hexagon RGB</h4>
+                <div class="rating ">
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star-half-o "></i>
+                    <p>Rp300.000</p>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <img src="images/product-nano.jpg ">
+                <h4> Nano Leaf RGB</h4>
+                <div class="rating ">
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <p>Rp300.000</p>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <img src="images/product-nano.jpg ">
+                <h4> Nano Leaf RGB</h4>
+                <div class="rating ">
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                    <p>Rp300.000</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- Offer -->
 
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="images/OFFER-2.png" class="offer-img">
+    <div class="offer ">
+        <div class="small-container ">
+            <div class="row ">
+                <div class="col-2" data-aos="zoom-in" data-aos-offset="250">
+                    <img src="images/OFFER-2.png " class="offer-img ">
                 </div>
-                <div class="col-2">
+                <div class="col-2 ">
                     <p>Exclusively Available on Retro Light Project</p>
                     <h1>HEXAGON LED</h1>
                     <small>Mi Smart Band 4 will track your heart rate, calories burned and more. as you climb mountain roads or dash around the city. Whether you're doing high-speed battle rope training or an aerobic battle rope workout, Mi Smart Band 4 will track your heart rate, calories burned and more.</small>
-                    <br><a href="" class="btn">Buy Now &#8594;</a>
+                    <br>
+                    <div data-aos="fade-left" data-aos-easing="ease-in-out"><a href=" " class="btn">Buy Now &#8594;</a></div>
                 </div>
             </div>
         </div>
@@ -123,11 +180,11 @@
 
     <!---Testimonial--->
 
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
+    <div class="testimonial ">
+        <div class="small-container ">
+            <div class="row ">
+                <div class="col-3 ">
+                    <i class="fa fa-quote-left "></i>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
                         specimen book.</p>
                     <div class="rating ">
@@ -136,11 +193,11 @@
                         <i class="fa fa-star "></i>
                         <i class="fa fa-star-half-o "></i>
                     </div>
-                    <img src="images/user-1.png" alt="">
+                    <img src="images/user-1.png " alt=" ">
                     <h3>Dewi</h3>
                 </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
+                <div class="col-3 ">
+                    <i class="fa fa-quote-left "></i>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
                         specimen book.</p>
                     <div class="rating ">
@@ -149,11 +206,11 @@
                         <i class="fa fa-star "></i>
                         <i class="fa fa-star-half-o "></i>
                     </div>
-                    <img src="images/user-2.png" alt="">
+                    <img src="images/user-2.png " alt=" ">
                     <h3>Reza S</h3>
                 </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
+                <div class="col-3 ">
+                    <i class="fa fa-quote-left "></i>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
                         specimen book.</p>
                     <div class="rating ">
@@ -162,7 +219,7 @@
                         <i class="fa fa-star "></i>
                         <i class="fa fa-star-half-o "></i>
                     </div>
-                    <img src="images/user-3.png" alt="">
+                    <img src="images/user-3.png " alt=" ">
                     <h3>Intan Putri</h3>
                 </div>
             </div>
@@ -170,26 +227,26 @@
     </div>
 
     <!--------------------Brands----------------------->
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="images/logo-godrej.png" alt="">
+    <div class="brands ">
+        <div class="small-container ">
+            <div class="row ">
+                <div class="col-5 ">
+                    <img src="images/tokped.png " alt=" ">
                 </div>
-                <div class="col-5">
-                    <img src="images/logo-coca-cola.png" alt="">
+                <div class="col-5 ">
+                    <img src="images/shopee.png " alt=" ">
                 </div>
-                <div class="col-5">
-                    <img src="images/logo-oppo.png" alt="">
+                <div class="col-5 ">
+                    <img src="images/JNT.png " alt=" ">
                 </div>
-                <div class="col-5">
-                    <img src="images/logo-paypal.png" alt="">
+                <div class="col-5 ">
+                    <img src="images/logo-paypal.png " alt=" ">
                 </div>
-                <div class="col-5">
-                    <img src="images/logo-philips.png" alt="">
+                <div class="col-5 ">
+                    <img src="images/Si-Cepat.png " alt=" ">
                 </div>
-                <div class="col-5">
-                    <img src="images/logo-white.png" alt="">
+                <div class="col-5 ">
+                    <img src="images/logo-bca2.png " alt=" ">
                 </div>
             </div>
         </div>
@@ -197,22 +254,22 @@
 
     <!---------Footer-------------->
 
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col-1">
+    <div class="footer ">
+        <div class="container ">
+            <div class="row ">
+                <div class="footer-col-1 ">
                     <h3>Download Your Apps</h3>
                     <p>Download App for Android and IOS Mobile phone.</p>
-                    <div class="app-logo">
-                        <img src="images/play-store.png" alt="">
-                        <img src="images/app-store.png" alt="">
+                    <div class="app-logo ">
+                        <img src="images/play-store.png " alt=" ">
+                        <img src="images/app-store.png " alt=" ">
                     </div>
                 </div>
-                <div class="footer-col-2">
-                    <img src="images/logo-white.png" alt="">
+                <div class="footer-col-2 ">
+                    <img src="images/logo-white.png " alt=" ">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                 </div>
-                <div class="footer-col-3">
+                <div class="footer-col-3 ">
                     <h3>Useful Link</h3>
                     <ul>
                         <li>Coupons</li>
@@ -221,7 +278,7 @@
                         <li>Join Afiiliate</li>
                     </ul>
                 </div>
-                <div class="footer-col-4">
+                <div class="footer-col-4 ">
                     <h3>Follow Us</h3>
                     <ul>
                         <li>Facebook</li>
@@ -232,13 +289,14 @@
                 </div>
             </div>
             <hr>
-            <p class="copyright">Copyright 2020 - -Private policy</p>
+            <p class="copyright ">Copyright 2020 - -Private policy</p>
         </div>
     </div>
 
     <!------------JS FOR TOGGLE MENU ----------------->
+
     <script>
-        var MenuItems = document.getElementById("MenuItems");
+        var MenuItems = document.getElementById("MenuItems ");
 
         MenuItems.style.maxHeight = "0px";
 
@@ -249,6 +307,12 @@
                 MenuItems.style.maxHeight = "0px";
             }
         }
+    </script>
+    <!-------------- AOS Style ------------>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
 </body>
